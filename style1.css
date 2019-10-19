@@ -1,0 +1,9 @@
+ul{
+    background-color:rgb(19, 233, 233);
+    border: 4px double black;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.973);
+}
+body{
+    background: rgb(255, 73, 73);
+}
