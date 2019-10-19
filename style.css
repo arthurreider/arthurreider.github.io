@@ -1,0 +1,22 @@
+p{
+    color: white;
+    font-size: 100px;
+    line-height: 10px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left:110px;
+}
+.border-box {
+    box-sizing: content-box;
+    width: 400px;
+    height: 230px;
+    margin: 20px;
+    padding: 20px;
+    border: 21px solid #888282;
+    background-color: #f3f3f3;
+  }
+
+  body {
+   background: #ccf url("http://toyota59ber.ru/wp-content/uploads/2017/11/lx570-gallery81.jpg") no-repeat center center fixed;
+   background-size: cover;
+  }
