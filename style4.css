@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+body{
+    background: #ccf url("https://images.wallpaperscraft.ru/image/gory_ozero_vershiny_vid_sverkhu_119133_1920x1080.jpg") no-repeat center center fixed;
+   background-size: cover;
+}
+.menu{
+    list-style: none;
+    margin: 0 auto;
+
+}
+.menu li{
+    display:inline-block;
+    font-family: 'Staatliches', cursive;
+    margin-left: 15%;
+    
+
+}
+.menu li a{
+    display:inline-block;
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Big Shoulders Text', cursive;
+
+   
+}
+.menu li a:hover{
+    color: rgb(11, 241, 230);
+}
+.d img{
+    width:600px;
+}
+.d{
+display:inline-block;
+width: 50%;
+}
+.d2{
+margin-left:-4px;
+}
