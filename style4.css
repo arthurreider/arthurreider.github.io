@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 body{
-    background: #ccf url("https://images.wallpaperscraft.ru/image/gory_ozero_vershiny_vid_sverkhu_119133_1920x1080.jpg") no-repeat center center fixed;
+    background: #0000 url("https://images.wallpaperscraft.ru/image/gory_ozero_vershiny_vid_sverkhu_119133_1920x1080.jpg") no-repeat center center fixed;
    background-size: cover;
 }
 .menu{
@@ -19,13 +19,14 @@ body{
 .menu li a{
     display:inline-block;
     text-decoration: none;
-    color: darkgrey;
+    color: rgb(0, 0, 0);
     font-family: 'Big Shoulders Text', cursive;
+    font-size: 20px;;
 
    
 }
 .menu li a:hover{
-    color: rgb(11, 241, 230);
+    color: rgb(229, 255, 0);
 }
 .d img{
     width:600px;
