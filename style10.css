@@ -1,164 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap');
-.item{
-width: 200px;
-height: 200px;
-background: white;
-display: inline-block;
-margin: 40px;
-}
-.img1{
-    width: 200px;
-    height: 200px;
-    background:white;
-}
-.item:hover .img1{
-    background: rgba(173, 216, 230, 0.425);
-}
-.footer{
-    background: rgb(54, 54, 54);
-    width: 200px;
-    height: 40px;
-}
-.name{
-    width: 150px;
-    display: inline-block;
-    line-height: 40px;
-    font-size: 14px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 10px;
-}
-.price{
-    width: 20px;
-    display: inline-block;
-    line-height: 40px;
-    color: white;
-}
-.item:hover .footer{
-    background: rgba(33, 165, 165, 0.671);
-}
-.ded{
-    height: 200px;
-    width: 200px;
-}
-.line{
-    margin-left: 15% ;
-    margin-right: 0px;
-}
-.LATEST_NEWS{
-    font-size: 48px;
-    text-align: center;
-    padding: 40px;
-    font-family: 'Roboto', sans-serif;
-    color: rgba(66, 66, 66, 0.973);
-    text-transform:  uppercase;
-    font-weight: bold ;
+.block1{
     position: relative;
-    font-weight: 900;
-    letter-spacing: -0.1em;
-    
+    width: 260px;
+    height: 270px;
+    background: white;
+    border: 1px solid black;
 }
-.title{
-    font-size: 48px;
-    text-align: center;
-    padding: 40px;
-    font-family: 'Roboto', sans-serif;
-    color: rgba(66, 66, 66, 0.973);
-    text-transform:  uppercase;
-    font-weight: bold ;
-    position: relative;
-    font-weight: 900;
-    letter-spacing: -0.1em;
-}
-.title::after{
-    content: " ";
+.block2{
+    display: none;
+    width: 250px;
+    height: 260px;
+    background: gray;
     position: absolute;
-    top: 100px;
-    right: 650px;
-    height: 7px;
-    width: 280px;
-    background-color: #4ec6ab;
+    top: 5px;
+    left: 5px;
+    background: rgba(100, 100, 100, 0.3);
 }
-.bottom{
-    width: 10%;
-    margin-left: 15%;
-    display: inline-block;
-    
-}
-button{
-    width: 140px;
-    height: 40px;
-    background: rgba(33, 165, 165, 0.671);
-    color: white;
-    border:rgba(33, 165, 165, 0.671) ;
-}
-.down{
-    width: 300px;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: 18px;
-}
-.up{
-    width: 300px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.logo-text {
-    font-family: Normal, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: black;
-    margin-left: 17%;
-    display: inline-block;
-    margin-right: 0px;
-    height: 20px;
-    position: absolute;
-    
-}
-  
-.text::first-letter {
-    font-family: 'Normal';
-    color: rgb(0, 255, 221);
-    font-size: 20px;
-    margin-left: 5%;
-}
-.a
- {
-    box-sizing: border-box;
-    padding: 0;
-    margin-right: 14px;
-}
-  
-.site-navigation {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-}
-  
-.site-navigation li {
-    float: left;
-}
-.nav{
-    display: inline-block;
-    width:85%;
-    text-align:right;
-}
-.site-navigation a {
+.block1:hover .block2{
     display: block;
-    padding: 10px;
-    font-size: 14px;
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-    list-style: none;
 }
-  
-  .site-navigation a:hover {
-    color: rgb(0, 255, 221);
+.knopka1{
+    height: 30px;
+    width: 50px;
+    background-color: rgba(100, 100, 100, 0.3);
+
 }
-  
-  .site-navigation a:focus {
-    color: rgb(0, 255, 221);
+.wrap{
+    margin-top: 40%;
+    text-align: center;
+}
+.l{
+    background: violet;
+    border: 1px solid;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+.l span{
+    opacity: 0px;
+    font-size: 36px;
+}
+.l:hover span{
+    opacity: 0;
+}
+.l:hover{
+    background: grey;
+}
+.menu{
+    margin-top: 100px;
+}
+.menu li{
+    display: inline-block;
+}
+.li1{
+    position: relative;
+}
+.submenu{
+    display:none;
+    top:18px;
+    left:10px;
+    position: absolute;
+    background: red;
+    margin: 0;
+    padding: 0;
+}
+.li1:hover.submenu{
+    display: block;
+}
+.submenu li:hover{
+    background: green;
 }
