@@ -1,0 +1,235 @@
+.logo-text {
+    font-family: Normal, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    margin-left: 15px;
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text::first-letter {
+    font-family: 'Normal';
+    color: #4ec6ab;
+    font-size: 20px;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aaaa {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 14px;
+}
+
+.site-navigation {
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+.site-navigation li {
+    float: left;
+}
+
+.nav {
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+.site-navigation a {
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-navigation a:hover {
+    color: #4ec6ab;
+}
+
+.site-navigation a:focus {
+    color: #4ec6ab;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background: whitesmoke;
+    display: inline-block;
+    margin: 40px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    width: 200px;
+    height: 40px;
+    background: black;
+}
+
+.name {
+    width: 120px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price {
+    width: 76px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.item:hover .footer {
+    background: #4ec6ab;
+}
+
+.item:hover .img {
+    background: rgb(173, 216, 230, 0.425);
+}
+
+.kartinka {
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.zaglavie2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(81, 81, 81);
+    margin-left: 43%;
+    position: relative;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: 630px;
+    height: 7px;
+    width: 200px;
+    background-color: #4ec6ab;
+    width: 300px;
+}
+
+.zaglavie {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(81, 81, 81);
+    margin-left: 40%;
+    position: relative;
+}
+
+.name {
+    color: white;
+}
+
+.price {
+    color: white;
+}
+
+.bottom {
+    margin-left: 15%;
+    display: inline-block;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background: rgba(33, 165, 165, 0.671);
+    color: white;
+    border: rgba(33, 165, 165, 0.671);
+}
+
+.down {
+    width: 300px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+}
+
+.up {
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.up::after {
+    content: " ";
+    position: absolute;
+    top: 90px;
+    right: 89px;
+    height: 7px;
+    width: 210px;
+    background-color: #4ec6ab;
+}
+
+.i {
+    width: 400px;
+    height: 200px;
+}
+
+.fon {
+    background-color: whitesmoke;
+}
+
+.person {
+    width: 20%;
+}
+
+.text1 {
+    width: 300px;
+}
+
+.rite {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.zag1 {
+    width: 300px;
+    position: relative;
+    ;
+}
+
+.text1 {
+    width: 300px;
+    font-size: 18px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background: rgba(33, 165, 165, 0, 671);
+    color: white;
+    border: rgba(33, 165, 165, 0, 671);
+}
+
+.elem {
+    display: inline-block;
+    text-align: center;
+    width: 377px;
+}
+
+.h12 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
